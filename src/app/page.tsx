@@ -1,6 +1,4 @@
-// src/pages/index.tsx or src/app/page.tsx (if using the new App Router in Next.js 13+)
-
-"use client";
+"use client"
 import Image from "next/image";
 import Navbar from "./components/Navbar"; 
 import Background from "./components/Background";
@@ -10,7 +8,9 @@ import Project from "./components/Projects";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Form from "./components/Form";
+import Form from "./components/Form"
+// import SendEmailForm from "../../pages/index";
+
 
 export default function Home() {
   return (
@@ -22,7 +22,8 @@ export default function Home() {
       <Team />
       <Project />
       <Contact />
-      <Form />
+      <Form/>
+      {/* <SendEmailForm/> */}
       <Footer />
     </>
   );
