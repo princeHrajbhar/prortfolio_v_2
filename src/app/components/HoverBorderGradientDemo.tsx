@@ -21,7 +21,7 @@ export default function HoverBorderGradientDemo() {
   };
 
   return (
-    <div className="m-40 flex justify-center text-center bg-transparent">
+    <div className=" flex justify-center text-center bg-transparent">
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
