@@ -64,7 +64,7 @@ export default function Background() {
 
       
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-          Welcome! With expertise in strategic planning, data analysis, and project management, I bring a dynamic approach to every endeavor. &apos;Skilled in fostering collaboration and driving innovation, I thrive in fast-paced environments. Let's connect and explore opportunities for growth and success together.
+          Welcome! With expertise in strategic planning, data analysis, and project management, I bring a dynamic approach to every endeavor. Skilled in fostering collaboration and driving innovation, I thrive in fast-paced environments. Let&apos;s connect and explore opportunities for growth and success together.
         </p>
         
       </div>

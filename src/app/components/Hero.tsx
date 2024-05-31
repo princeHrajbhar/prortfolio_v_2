@@ -16,7 +16,7 @@ const Hero = () => {
         My Skills 
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
-      "Passionate about crafting intuitive digital experiences that engage and inspire."
+      Passionate about crafting intuitive digital experiences that engage and inspire.
       </p>
     </div>
     </div>
