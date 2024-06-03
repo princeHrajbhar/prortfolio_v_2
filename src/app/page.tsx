@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Form from "./components/Form"
 // import SendEmailForm from "../../pages/index";
+import ContectForm from "@/components/contact/page";
+
 
 
 export default function Home() {
@@ -22,7 +24,9 @@ export default function Home() {
       <Team />
       <Project />
       <Contact />
-      <Form/>
+     
+      {/* <Form/> */}
+      <ContectForm/>
       {/* <SendEmailForm/> */}
       <Footer />
     </>
