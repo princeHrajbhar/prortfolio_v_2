@@ -63,7 +63,7 @@ export default function ResponsiveNavbar() {
         } bg-transparent text-white px-4 py-2 fixed w-full z-50 transition-all duration-300 ease-in-out`}
       >
         <div className="flex justify-between items-center">
-          <div className="text-lg font-bold">My Website</div>
+          <div className="text-lg font-bold">Prince Rajbhar</div>
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
