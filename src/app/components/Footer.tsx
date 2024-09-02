@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
+import myImage from '../../../public/my.jpeg';
+
 
 const Footer = () => {
   return (
@@ -60,7 +62,7 @@ const Footer = () => {
         
         <div className="flex items-center justify-between">
           <a href="#">
-            <Image className="w-auto h-7" src="/path/to/your/image.svg" alt="Logo" width={100} height={28} />
+          <Image className="w-auto h-7" src={myImage} alt="Logo" width={100} height={28} />
           </a>
           
           <div className="flex -mx-2">

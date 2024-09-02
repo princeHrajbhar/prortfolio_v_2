@@ -1,6 +1,6 @@
-"use client"
-import Image from "next/image";
-import Navbar from "./components/Navbar"; 
+"use client"; // Ensure this component runs on the client side
+
+import Navbar from "./components/Navbar";
 import Background from "./components/Background";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
@@ -8,11 +8,7 @@ import Project from "./components/Projects";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Form from "./components/Form"
-// import SendEmailForm from "../../pages/index";
-import ContectForm from "@/components/contact/page";
-
-
+import ContactForm from "@/components/contact/page";
 
 export default function Home() {
   return (
@@ -20,14 +16,17 @@ export default function Home() {
       <Navbar />
       <Background />
       <Hero />
-      <Skills />
+      <section id="skills">
+        <Skills />
+      </section>
       <Team />
-      <Project />
+      <section id="projects">
+        <Project />
+      </section>
       <Contact />
-     
-      {/* <Form/> */}
-      <ContectForm/>
-      {/* <SendEmailForm/> */}
+      <section id="contact">
+        <ContactForm />
+      </section>
       <Footer />
     </>
   );

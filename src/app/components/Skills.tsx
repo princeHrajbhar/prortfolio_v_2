@@ -22,7 +22,7 @@ export const projects = [
     link: "https://netflix.com",
   },
   {
-    title: "Nongodb /MySql /IBM db2",
+    title: "Mongodb /MySql /IBM db2",
     description:
     "Skilled in MongoDB for flexible NoSQL solutions and MySQL for relational database management. Experienced with IBM Db2 for enterprise-grade database management, ensuring high availability and performance.",
     link: "https://google.com",

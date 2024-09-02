@@ -13,33 +13,33 @@ import {
 // Define your items with image URLs
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    imageUrl: "https://via.placeholder.com/400", // Example image URL
+    title: "Ecommerce website!",
+    description: "ecommerce store with all the advance features like cart,order,payment,wishlist,profile",
+    imageUrl: "https://res.cloudinary.com/dieuobok1/image/upload/v1725206424/ml_default/Screenshot_2199_xkprnb.png", // Example image URL
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    imageUrl: "https://via.placeholder.com/400", // Example image URL
+    title: "Personal portfolio page!",
+    description: "most attractive portfolio page with intractive and framework motion",
+    imageUrl: "https://res.cloudinary.com/dieuobok1/image/upload/v1725206397/ml_default/Screenshot_2789_flvl5z.png", // Example image URL
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
-    imageUrl: "https://via.placeholder.com/400", // Example image URL
+    title: "Admin dashboard ",
+    description: "admin daishboard with all magageable controls of order,layout,offers,product",
+    imageUrl: "https://res.cloudinary.com/dieuobok1/image/upload/v1725206398/ml_default/Screenshot_2784_dsvkab.png", // Example image URL
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
-    description: "Understand the impact of effective communication in our lives.",
-    imageUrl: "https://via.placeholder.com/400", // Example image URL
+    title: "Chat analyzer",
+    description: "python project for the whatsapp chat to monitor the engagement of members",
+    imageUrl: "https://res.cloudinary.com/dieuobok1/image/upload/v1725207614/ml_default/Screenshot_2024-09-01_214951_tlcly2.png", // Example image URL
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
-    imageUrl: "https://via.placeholder.com/400", // Example image URL
+    title: "Messaging app",
+    description: "real time messaging app using I/O web socket nodejs",
+    imageUrl: "https://res.cloudinary.com/dieuobok1/image/upload/v1725206386/ml_default/Screenshot_2792_aynjiz.png", // Example image URL
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   // Add more items for the second row
