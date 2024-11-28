@@ -29,7 +29,7 @@ export default function HoverBorderGradientDemo() {
         onClick={handleDownloadCV} // Call handleDownloadCV on button click
       >
         <AceternityLogo />
-        <span>Download CV</span>
+        <span>Download Resume</span>
       </HoverBorderGradient>
     </div>
   );
